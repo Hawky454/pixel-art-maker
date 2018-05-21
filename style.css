@@ -1,0 +1,37 @@
+.canvas-section {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: 280px;
+  width: 420px;
+  margin-bottom: 20px;
+}
+
+.canvas-box {
+  height: 12px;
+  width: 12px;
+  border: 1px solid black;
+}
+
+.color-section {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 500px;
+}
+
+.color-box {
+  height: 24px;
+  width: 24px;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
