@@ -1,15 +1,23 @@
+body {
+    font-family: helvetica;
+    font-size: 2em;
+    font-style: italic;
+    color: grey;
+}
+
 .canvas-section {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
   height: 280px;
   width: 420px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
 }
-canvas {
-    cursor: url(cursor.cur), url(cursor.gif), auto;
+
+.container {
+    padding-top: 40px;
 }
 
 .canvas-box {
@@ -22,20 +30,28 @@ canvas {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
   height: 100px;
   width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.color-circle {
+#brush-color {
+    display: flex;
+    justify-content: start;
+}
+
+.color-box {
   height: 24px;
   width: 24px;
   border: 1px solid black;
   border-radius: 12px;
 }
 
-#brush-color {
-  display: flex;
-  justify-content: flex-start;
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
 }
